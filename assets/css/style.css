@@ -20,6 +20,7 @@ header {
   .header-left span {
     color: #4682b4;
     margin-left: 22px;
+    margin-top: 22px;
     font-size: 50px;
   }
   .header-right ul {
@@ -38,3 +39,11 @@ header {
   .header-right span:last-child {
     margin-right: 0;
   }
+
+
+  .swiper-container {
+    margin: 30px;
+    width: 800px;
+    height: 300px;
+  }
+  
