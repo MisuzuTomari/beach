@@ -46,3 +46,32 @@ header {
     height: 300px;
   }
   
+/* ここから紹介欄 */
+
+  .programming {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .programming h2,
+  .english h2
+  {
+    font-size: 40px;
+    text-align: center;
+    color: grey;
+    padding-top: 40px;
+  }
+  .contents {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin: 20px auto;
+  }
+  .description {
+    width: 50%;
+    line-height: 1.5;
+  }
+  .contents img {
+    height: 150px;
+    margin: 0 20px;
+  }
