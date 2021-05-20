@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+
+header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;  
+    background-color: white;
+    color:#4682b4;
+    padding: 14px 40px;
+    font-family: 'Dancing Script',cursive;
+  }
+  .header-left {
+    display: flex;
+    align-items: center;
+  }
+  .header-left span {
+    color: #4682b4;
+    margin-left: 22px;
+    font-size: 50px;
+  }
+  .header-right ul {
+    color: white;
+    font-size: 20px;
+    display: flex;
+    /* margin-right: 20px; */
+  }
+  
+  .header-right li {
+    margin-left: 20px;
+  }
+  li {
+    list-style: none;
+  }
+  .header-right span:last-child {
+    margin-right: 0;
+  }
