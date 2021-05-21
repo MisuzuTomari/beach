@@ -40,6 +40,13 @@ header {
     margin-right: 0;
   }
 
+  .main-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+
   .swiper-box {
     display: flex;
     justify-content: center;
@@ -67,6 +74,13 @@ header {
   
 /* ここから紹介欄 */
 
+.phrase {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
   .programming {
     width: 100%;
     margin: 0 auto;
@@ -82,7 +96,7 @@ header {
   }
   .contents {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     margin-top: 20px;
     margin: 20px auto;

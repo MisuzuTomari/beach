@@ -18,6 +18,7 @@ $(function () {
     
   });
 
+  // MainのSWIPERです。
   const beachswiper = new Swiper('.swiper-container.beach', {
     // Optional parameters
     direction: 'horizontal',
