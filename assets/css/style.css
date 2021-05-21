@@ -59,6 +59,7 @@ header {
     text-align: center;
     color: grey;
     padding-top: 40px;
+    font-family:'Dancing Script', cursive;;
   }
   .contents {
     display: flex;
