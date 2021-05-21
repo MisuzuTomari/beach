@@ -4,7 +4,7 @@ $(function(){
 
   /* オプション設定 */
   const options = {
-    slide: 'top', /* スライド方向（none, top, bottom, left, right） */
+    slide: 'right', /* スライド方向（none, top, bottom, left, right） */
     duration: 300, /* 表示アニメーション速度（ms） */
     weight: 'regular', /* アイコン太さ（regular, light, solid） */
     dark: true, /* 画面の暗転（true, false） */

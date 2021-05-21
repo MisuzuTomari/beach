@@ -1,112 +1,133 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
+
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./assets/css/hamburger-menu.css">
+    
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Let's go to the Beach!</title>
 </head>
+
 <body>
     <header>
         <div class="header-left">
             <span>Let's go to the Beach!</span>
         </div>
         <div class="header-right">
-           
+            <!-- ハンバーガーメニュー -->
+            <button class="hamburger-button"></button>
+
+            <!-- ナビゲーション -->
+            <nav class="hamburger-nav">
+                <ul>
+                    <li><a href="#">メニュー１</a></li>
+                    <li><a href="#">メニュー２</a></li>
+                    <li><a href="#">メニュー３</a></li>
+                    <li><a href="#">メニュー４</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
 
-<main>
+    <main>
 
-    <!-- Slider main container -->
-  <div class="swiper-container">
-    <!-- Additional required wrapper -->
-    <div class="swiper-wrapper">
-      <!-- Slides -->
-      <div class="swiper-slide"><img src="https://placehold.jp/800x300.png" alt=""></div>
-      <div class="swiper-slide"><img src="https://placehold.jp/800x300.png" alt=""> Slide 2</div>
-      <div class="swiper-slide"><img src="https://placehold.jp/800x300.png" alt=""> Slide 3</div>
-    </div>
-    <!-- If we need pagination -->
-    <div class="swiper-pagination"></div>
-    <!-- If we need navigation buttons -->
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-button-next"></div>
-    <!-- If we need scrollbar -->
-    <div class="swiper-scrollbar"></div>
-  </div>
-    <!-- ここまでスワイパー -->
+        <div class="swiper-box">
+            <!-- Slider main container -->
+            <div class="swiper-container">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="https://placehold.jp/800x300.png" alt=""></div>
+                    <div class="swiper-slide"><img src="https://placehold.jp/800x300.png" alt=""> Slide 2</div>
+                    <div class="swiper-slide"><img src="https://placehold.jp/800x300.png" alt=""> Slide 3</div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+            </div>
+        </div>
+        <!-- ここまでスワイパー -->
 
-<section class="programming" id="programming">
-    <div>
-    <h2>THE BEST BEACH IN OKINAWA</h2>
-    </div>
-    <div class="contents">
-        <p class="description">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum, molestiae? Optio dolor rem
-            necessitatibus pariatur odio nesciunt, nostrum magnam hic recusandae assumenda animi. Exercitationem
-            mollitia earum eligendi animi porro consectetur?
-        </p>
-    </div>
-</section>
-
-
-<!-- 紹介欄スタート -->
-
-<section class="programming" id="programming">
-    <h2>1.古宇利島</h2>
-    <div class="contents">
-        <p class="description">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum, molestiae? Optio dolor rem
-            necessitatibus pariatur odio nesciunt, nostrum magnam hic recusandae assumenda animi. Exercitationem
-            mollitia earum eligendi animi porro consectetur?
-        </p>
-<!-- Slider main container -->
-<div class="swiper-container-beach">
-    <!-- Additional required wrapper -->
-    <div class="swiper-wrapper-beach">
-      <!-- Slides -->
-      <div class="swiper-slide-beach"><img src="https://placehold.jp/500x300.png" alt=""></div>
-      <div class="swiper-slide-beach"><img src="https://placehold.jp/500x300.png" alt=""> Slide 2</div>
-      <div class="swiper-slide-beach"><img src="https://placehold.jp/500x300.png" alt=""> Slide 3</div>
-    </div>
-    <!-- If we need pagination -->
-    <div class="swiper-pagination-beach"></div>
-  
-    <!-- If we need navigation buttons -->
-    <div class="swiper-button-prev-beach"></div>
-    <div class="swiper-button-next-beach"></div>
-  
-    <!-- If we need scrollbar -->
-    <div class="swiper-scrollbar-beach"></div>
-  </div>
-    </div>
-
-</section>
+        <section class="programming" id="programming">
+            <div>
+                <h2>THE BEST BEACH IN OKINAWA</h2>
+            </div>
+            <div class="contents">
+                <p class="description">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum, molestiae? Optio dolor rem
+                    necessitatibus pariatur odio nesciunt, nostrum magnam hic recusandae assumenda animi. Exercitationem
+                    mollitia earum eligendi animi porro consectetur?
+                </p>
+            </div>
+        </section>
 
 
+        <!-- 紹介欄スタート -->
+
+        <section class="programming" id="programming">
+            <h2>1.古宇利島</h2>
+            <div class="contents">
+                <p class="description">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum, molestiae? Optio dolor rem
+                    necessitatibus pariatur odio nesciunt, nostrum magnam hic recusandae assumenda animi. Exercitationem
+                    mollitia earum eligendi animi porro consectetur?
+                </p>
+                <!-- Slider main container -->
+                <div class="swiper-container-beach">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper-beach">
+                        <!-- Slides -->
+                        <div class="swiper-slide-beach"><img src="https://placehold.jp/500x300.png" alt=""></div>
+                        <div class="swiper-slide-beach"><img src="https://placehold.jp/500x300.png" alt=""> Slide 2
+                        </div>
+                        <div class="swiper-slide-beach"><img src="https://placehold.jp/500x300.png" alt=""> Slide 3
+                        </div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination-beach"></div>
+
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev-beach"></div>
+                    <div class="swiper-button-next-beach"></div>
+
+                    <!-- If we need scrollbar -->
+                    <div class="swiper-scrollbar-beach"></div>
+                </div>
+            </div>
+
+        </section>
 
 
 
-<section class="english" id="english">
+
+
+        <section class="english" id="english">
             <h2>BEACH2</h2>
             <div class="contents">
-               
-                <a href="./assets/img/programming.jpg" data-lightbox="image-1" data-title="My caption"><img src="https://placehold.jp/500x300.png" alt="programming"></a>
+
+                <a href="./assets/img/programming.jpg" data-lightbox="image-1" data-title="My caption"><img
+                        src="https://placehold.jp/500x300.png" alt="programming"></a>
                 <p class="description">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi voluptate libero unde alias
                     laborum laboriosam praesentium fugit recusandae dolorum, nostrum doloribus est et impedit, expedita
                     eius voluptates quo odit corrupti.
                 </p>
             </div>
-</section>
+        </section>
 
-<section class="programming" id="programming">
+        <section class="programming" id="programming">
             <h2>BEACH3</h2>
             <div class="contents">
                 <p class="description">
@@ -114,46 +135,52 @@
                     necessitatibus pariatur odio nesciunt, nostrum magnam hic recusandae assumenda animi. Exercitationem
                     mollitia earum eligendi animi porro consectetur?
                 </p>
-                <a href="./assets/img/programming.jpg" data-lightbox="image-1" data-title="My caption"><img src="https://placehold.jp/500x300.png" alt="programming"></a>
+                <a href="./assets/img/programming.jpg" data-lightbox="image-1" data-title="My caption"><img
+                        src="https://placehold.jp/500x300.png" alt="programming"></a>
             </div>
-</section>
+        </section>
 
-<section class="english" id="english">
-    <h2>BEACH4</h2>
-    <div class="contents">
-       
-        <a href="./assets/img/programming.jpg" data-lightbox="image-1" data-title="My caption"><img src="https://placehold.jp/500x300.png" alt="programming"></a>
-        <p class="description">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi voluptate libero unde alias
-            laborum laboriosam praesentium fugit recusandae dolorum, nostrum doloribus est et impedit, expedita
-            eius voluptates quo odit corrupti.
-        </p>
-    </div>
-</section>
+        <section class="english" id="english">
+            <h2>BEACH4</h2>
+            <div class="contents">
 
-<section class="programming" id="programming">
-    <h2>BEACH5</h2>
-    <div class="contents">
-        <p class="description">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum, molestiae? Optio dolor rem
-            necessitatibus pariatur odio nesciunt, nostrum magnam hic recusandae assumenda animi. Exercitationem
-            mollitia earum eligendi animi porro consectetur?
-        </p>
-        <a href="./assets/img/programming.jpg" data-lightbox="image-1" data-title="My caption"><img src="https://placehold.jp/500x300.png" alt="programming"></a>
-    </div>
-</section>
-        
+                <a href="./assets/img/programming.jpg" data-lightbox="image-1" data-title="My caption"><img
+                        src="https://placehold.jp/500x300.png" alt="programming"></a>
+                <p class="description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi voluptate libero unde alias
+                    laborum laboriosam praesentium fugit recusandae dolorum, nostrum doloribus est et impedit, expedita
+                    eius voluptates quo odit corrupti.
+                </p>
+            </div>
+        </section>
 
-
-
+        <section class="programming" id="programming">
+            <h2>BEACH5</h2>
+            <div class="contents">
+                <p class="description">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum, molestiae? Optio dolor rem
+                    necessitatibus pariatur odio nesciunt, nostrum magnam hic recusandae assumenda animi. Exercitationem
+                    mollitia earum eligendi animi porro consectetur?
+                </p>
+                <a href="./assets/img/programming.jpg" data-lightbox="image-1" data-title="My caption"><img
+                        src="https://placehold.jp/500x300.png" alt="programming"></a>
+            </div>
+        </section>
 
 
-</main>
-    
 
-    <script src="./assets/js/app.js"></script>
+
+
+
+    </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./assets/js/hamburger-menu.js"></script>
+
+    <script src="./assets/js/app.js"></script>
 
 </body>
+
 </html>

@@ -25,7 +25,7 @@
 }
 .hamburger-nav {
   position: fixed;
-  width: 100%;
+  width: 50%;
   background-color: #fff;
   z-index: 1001;
   padding: 20px;

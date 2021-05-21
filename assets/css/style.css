@@ -40,6 +40,12 @@ header {
     margin-right: 0;
   }
 
+  .swiper-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
   .swiper-container {
     margin: 30px;
     width: 800px;
