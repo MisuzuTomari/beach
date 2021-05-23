@@ -110,4 +110,19 @@ header {
     margin: 0 20px;
   }
 
-  
+  footer {
+    width: 100vw;
+    height: 120px;
+    margin-top: 50px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color:#4682b4;
+    font-family: 'Dancing Script',cursive;
+  }
+
+  .ToTop {
+    
+  }
