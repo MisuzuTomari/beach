@@ -15,6 +15,7 @@ header {
   }
   .header-left {
     display: flex;
+    justify-content: center;
     align-items: center;
   }
   .header-left span {
@@ -41,7 +42,7 @@ header {
   right: 0;
   left: 0;
   margin: auto;  /*top~marginまで0にして、三本線を真ん中にしてあげる*/
-  height:  2px;
+  height: 2px;
   width: 35px;
   background-color:rgb(252, 146, 8);
   display: block;
@@ -178,7 +179,6 @@ header {
     font-family: 'Dancing Script',cursive;
   }
 
-
   .ToTop {
     /* position: fixed; */
     width: 60px;
@@ -190,5 +190,4 @@ header {
     align-items: center;
     cursor: pointer;
   }
-
 
