@@ -123,7 +123,7 @@ header {
     margin: 30px;
   }
 
-  .swiper-container ,img {
+  .swiper-container ,.top-img {
     width: 100vw;
     height: 500px;
   }
