@@ -114,13 +114,16 @@ header {
 
   }
 
-  /* .swiper-slide{
-    width: 800px;
+  .swiper-slide {
+    width: 100vw;
     height: 300px;
-  } */
+  }
 
   .swiper-container {
     margin: 30px;
+  }
+
+  .swiper-container ,img {
     width: 100vw;
     height: 500px;
   }
