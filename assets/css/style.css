@@ -111,4 +111,33 @@ header {
     margin: 0 20px;
   }
 
-  
+  .icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  footer {
+    width: 100vw;
+    height: 120px;
+    margin-top: 50px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color:#4682b4;
+    font-family: 'Dancing Script',cursive;
+  }
+
+  .ToTop {
+    /* position: fixed; */
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgb(255, 192, 245);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }

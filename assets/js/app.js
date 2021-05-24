@@ -38,5 +38,10 @@ $(function () {
 
   });
 
+  $('#top-btn').on('click', function () {
+    // しゅるしゅるーっとTOPに戻る
+    $('body, html').animate({ scrollTop: 0 }, 500)　
+  });
+
 });
   
