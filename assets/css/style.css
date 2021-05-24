@@ -79,6 +79,7 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin: 50px;
 }
 
   .programming {
