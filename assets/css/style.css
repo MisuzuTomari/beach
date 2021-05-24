@@ -190,3 +190,46 @@ header {
     align-items: center;
     cursor: pointer;
   }
+
+
+  /* contact */
+#contact {
+    margin-bottom: 230px;
+
+}
+#contact > h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    padding-top: 80px;
+
+}
+.contact-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 70px;
+}
+input, textarea {
+    width: 40%;
+    font-size: 23px;
+    margin-bottom: 18px;
+    padding: 3px 12px;
+}
+input, textarea, button {
+    border-radius: 5px;
+}
+textarea {
+    width: 40%;
+}
+button {
+    width: 140px;
+    font-size: 23px;
+    padding: 7px;
+    height: 60px;
+    background-color: rosybrown;
+    margin-top: 26px;
+    cursor: pointer;
+    color: white;
+}
