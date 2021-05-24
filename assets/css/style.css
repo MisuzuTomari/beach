@@ -39,7 +39,7 @@ header {
   position: absolute;
   top: 0;
   bottom: 0;
-  right: 0;
+  right: -300px;
   left: 0;
   margin: auto;  /*top~marginまで0にして、三本線を真ん中にしてあげる*/
   height: 2px;
