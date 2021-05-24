@@ -23,6 +23,55 @@ header {
     margin-top: 22px;
     font-size: 50px;
   }
+
+/* ここからハンバーガーメニュー */
+ /*ハンバーガー３本線*/
+ .btn{
+  display: block;
+  position: relative;
+  /* top: 15px; */
+  width: 35px;
+  height: 50px;  /*高さと幅を変えて押せる範囲を広げる*/
+  cursor: pointer; /*手のポインターが出てくる*/
+  }
+.icon, .icon:before, .icon:after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;  /*top~marginまで0にして、三本線を真ん中にしてあげる*/
+  height:  2px;
+  width: 35px;
+  background-color: white;
+  display: block;
+  content: '';
+  transition: all 1s; /*ゆっくりバツになる*/
+}
+/*３本線の間隔*/
+.icon:before {
+  top:-25px;
+}
+.icon:after {
+  top: 25px;
+}
+/*アイコンクリックしたら*/
+.hamburger:checked ~ .btn .icon {
+  background: transparent;
+}
+.hamburger:checked ~ .btn .icon:before {
+  transform: rotate(-45deg);
+  top: 0;
+}
+.hamburger:checked ~ .btn .icon:after {
+  transform: rotate(45deg);
+  top: 0;
+}
+.hamburger:checked ~ .nav {
+  display: flex;
+} 
+/* ここまでハンバーガー */
+
   .header-right ul {
     color: white;
     font-size: 20px;
@@ -129,6 +178,7 @@ header {
     font-family: 'Dancing Script',cursive;
   }
 
+  
   .ToTop {
     /* position: fixed; */
     width: 60px;
