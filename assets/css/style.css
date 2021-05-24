@@ -26,6 +26,11 @@ header {
   }
 
 /* ここからハンバーガーメニュー */
+.box{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
  /*ハンバーガー３本線*/
  .btn{
   display: block;
@@ -35,11 +40,15 @@ header {
   height: 50px;  /*高さと幅を変えて押せる範囲を広げる*/
   cursor: pointer; /*手のポインターが出てくる*/
   }
+  .hamburger{
+    display: none;
+  }
+
 .icon, .icon:before, .icon:after {
   position: absolute;
   top: 0;
   bottom: 0;
-  right: -300px;
+  right: 0;
   left: 0;
   margin: auto;  /*top~marginまで0にして、三本線を真ん中にしてあげる*/
   height: 2px;
@@ -104,6 +113,11 @@ header {
     width: 100vw;
 
   }
+
+  /* .swiper-slide{
+    width: 800px;
+    height: 300px;
+  } */
 
   .swiper-container {
     margin: 30px;
