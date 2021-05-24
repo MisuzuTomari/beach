@@ -195,14 +195,12 @@ header {
   /* contact */
 #contact {
     margin-bottom: 230px;
-
 }
 #contact > h1 {
     display: flex;
     justify-content: center;
     font-size: 60px;
     padding-top: 80px;
-
 }
 .contact-wrap {
     display: flex;
@@ -223,7 +221,7 @@ input, textarea, button {
 textarea {
     width: 40%;
 }
-button {
+.contactbtn {
     width: 140px;
     font-size: 23px;
     padding: 7px;
