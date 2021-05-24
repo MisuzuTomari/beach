@@ -67,7 +67,6 @@ header {
   }
 
 .swiper-wrapper,.beach {
-  margin: 30px;
   width: 500px;
   height: 300px;
 }
@@ -107,8 +106,8 @@ header {
     line-height: 1.5;
   }
   .contents img {
-    height: 150px;
-    margin: 0 20px;
+    width: 500px;
+    height: 300px;
   }
 
   .icons {

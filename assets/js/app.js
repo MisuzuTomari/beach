@@ -38,6 +38,7 @@ $(function () {
 
   });
 
+<<<<<<< HEAD
 
 
   
@@ -45,6 +46,8 @@ $(function () {
     // しゅるしゅるーっとTOPに戻る
     $('body, html').animate({ scrollTop: 0 }, 500)　
   });
+=======
+>>>>>>> 3401875ff8bfe9ac7e0e73fe575b789c4b299da7
 
 });
   
