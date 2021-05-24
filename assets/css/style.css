@@ -100,12 +100,14 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100vw;
+
   }
 
   .swiper-container {
     margin: 30px;
-    width: 800px;
-    height: 300px;
+    width: 100vw;
+    height: 500px;
   }
 
   .beach-box {
