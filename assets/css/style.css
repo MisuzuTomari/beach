@@ -155,10 +155,20 @@ header {
   }
 
   /* ここを先生に聞くところA */
-  #programming,.programming{
-        transition: all 8s ease;
-      }
-  
+  .toptitle{
+    transition: opacity 15s ease;
+  }
+  .description{
+    transition: opacity 15s ease;
+  }
+  .toptitle.hide {
+    opacity: 0;
+  }
+  .description.hide {
+    opacity: 0;
+  }
+
+
   .programming h2,
   .english h2
   {
