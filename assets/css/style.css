@@ -27,9 +27,9 @@ header {
 /* ここからハンバーガーメニュー */
 .box{
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
+  justify-content: flex-end; 
 }
+
  /*ハンバーガー３本線*/
  .btn{
   display: block;
@@ -52,7 +52,7 @@ header {
   margin: auto;  /*top~marginまで0にして、三本線を真ん中にしてあげる*/
   height: 2px;
   width: 35px;
-  background-color:rgb(252, 146, 8);
+  background-color:rgb(2, 2, 151);
   display: block;
   content: '';
   transition: all 1s; /*ゆっくりバツになる*/
@@ -78,7 +78,14 @@ header {
 }
 .hamburger:checked ~ .nav {
   display: flex;
+  /* justify-content: flex-end; */
 } 
+
+.menu-box {
+  display: none;
+}
+
+
 /* ここまでハンバーガー */
 
   .header-right ul {

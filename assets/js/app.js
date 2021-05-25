@@ -1,4 +1,4 @@
-$(function () {
+
   // 下のものはスワイパーで使います
   const swiper = new Swiper('.swiper-container.top', {
     // Optional parameters
@@ -40,6 +40,12 @@ $(function () {
     $('body, html').animate({scrollTop:0},500);
 });
 
+// hamburger menu表示/非表示用
+$('.btn').on('click', function(){
+  $('.menu-box').slideIn();
+});
+$('.btn').on('click', function(){
+  $('.menu-box').slideOut();
 });
 
 
@@ -56,6 +62,9 @@ $(window).on('scroll', function(){
         $('.toptitle').addClass('hide');
         $('.description').addClass('hide');
     }
+
+
+
 })
 
   
