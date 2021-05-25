@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+.welcome{
+    background-image: url(/assets/img/coffee.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+
+
+
+header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;  
+    background:linear-gradient(#bbebff,white);
+    color:#4682b4;
+    padding: 14px 40px;
+    font-family: 'Dancing Script',cursive;
+  }
+  .header-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-left span {
+    color: #4682b4;
+    margin-left: 22px;
+    margin-top: 22px;
+    font-size: 50px;
+  }
+
+
+
+
+footer {
+    width: 100vw;
+    height: 120px;
+    margin-top: 50px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: white; */
+    background:linear-gradient(white,#bbebff);
+    color:#4682b4;
+    font-family: 'Dancing Script',cursive;
+  }
+
+  .ToTop {
+    /* position: fixed; */
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #bbebff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+
+
+
+  /* ここからハンバーガーメニュー */
+/* .box{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  } */
+   /*ハンバーガー３本線*/
+   /* .btn{
+    display: block;
+    position: relative;
+    top: 15px;
+    width: 50px;
+    height: 50px;  /*高さと幅を変えて押せる範囲を広げる*/
+    /* cursor: pointer; 手のポインターが出てくる */ 
+    /* }
+    .hamburger{
+      display: none;
+    }
+  
+  .icon, .icon:before, .icon:after {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;  top~marginまで0にして、三本線を真ん中にしてあげる */
+    /* height: 2px;
+    width: 35px;
+    background-color:rgb(252, 146, 8);
+    display: block;
+    content: '';
+    transition: all 1s; /*ゆっくりバツになる
+   } */ 
+  /*３本線の間隔*/
+  /* .icon:before {
+    top:-25px;
+  }
+  .icon:after {
+    top: 25px;
+  }
+  /*アイコンクリックしたら*/
+  /* .hamburger:checked ~ .btn .icon {
+    background: transparent;
+  }
+  .hamburger:checked ~ .btn .icon:before {
+    transform: rotate(-45deg);
+    top: 0;
+  }
+  .hamburger:checked ~ .btn .icon:after {
+    transform: rotate(45deg);
+    top: 0;
+  }
+  .hamburger:checked ~ .nav {
+    display: flex;
+  } 
+ */ 

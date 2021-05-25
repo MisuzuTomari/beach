@@ -41,4 +41,19 @@ $(function () {
 });
 
 });
+
+
+// 追加したけど先生に聞くところA
+
+$(window).on('scroll', function(){
+    let q11 = $('#programming.programming').offset().top;
+    //画面の高さの設定↓
+    let wh = $(window).height();
+    if(q11 <= $(window).scrollTop() + wh){
+        $('.toptitle','.description').removeClass('hide');
+    } else {
+        $('toptitle','.description').addClass('hide');
+    }
+})
+
   

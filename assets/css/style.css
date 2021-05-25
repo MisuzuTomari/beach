@@ -3,12 +3,11 @@
     padding: 0;
   }
 
-
 header {
     display: flex;
     justify-content: space-between; 
     align-items: center;  
-    background-color: white;
+    background:linear-gradient(#bbebff,white);
     color:#4682b4;
     padding: 14px 40px;
     font-family: 'Dancing Script',cursive;
@@ -154,6 +153,12 @@ header {
     width: 100%;
     margin: 0 auto;
   }
+
+  /* ここを先生に聞くところA */
+  #programming,.programming{
+        transition: all 8s ease;
+      }
+  
   .programming h2,
   .english h2
   {
@@ -193,7 +198,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    /* background-color: white; */
+    background:linear-gradient(white,#bbebff);
     color:#4682b4;
     font-family: 'Dancing Script',cursive;
   }
@@ -203,10 +209,11 @@ header {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background-color: rgb(255, 192, 245);
+    background-color: #bbebff;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
   }
 
+  
