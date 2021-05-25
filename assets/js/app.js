@@ -42,12 +42,8 @@
 
 // hamburger menu表示/非表示用
 $('.btn').on('click', function(){
-  $('.menu-box').slideIn();
+  $('.menu-box').toggle(1000);
 });
-$('.btn').on('click', function(){
-  $('.menu-box').slideOut();
-});
-
 
 // 追加したけど先生に聞くところA
 
