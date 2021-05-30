@@ -58,9 +58,5 @@ $(window).on('scroll', function(){
         $('.toptitle').addClass('hide');
         $('.description').addClass('hide');
     }
-
-
-
 })
 
-  
